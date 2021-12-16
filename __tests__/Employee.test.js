@@ -1,6 +1,6 @@
-const Employee = require('../lib/employee')
+const Employee = require('../lib/employee');
 
-const employee = new Employee('Jeff', 37, 'jerfderf@gmail.com')
+const employee = new Employee('Jeff', 37, 'jerfderf@gmail.com');
 
 it('should create an employee object', () => {
   expect(typeof employee).toBe('object')
