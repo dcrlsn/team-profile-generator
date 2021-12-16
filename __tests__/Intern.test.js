@@ -1,13 +1,13 @@
-const Intern = require('../lib/engineer');
+const Intern = require('../lib/intern');
 
-const intern = new Intern('Jeff', 37, 'jerfderf@gmail.com', 'Engineer', 'jerfderf');
+const intern = new Intern('Jeff', 37, 'jerfderf@gmail.com', 'Intern', 'Pennstate');
 
 it('should create an engineer object', () => {
   expect(typeof intern).toBe('object')
 });
 
 it('should return the role "Intern" with getRole()', () => {
-  expect(intern.getRole()).toBe('Engineer')
+  expect(intern.getRole()).toBe('Intern')
 });
 
 it('should return the intern\'s school with getSchool()', () => {
