@@ -7,46 +7,9 @@ const generateTeam = require('./src/generateTeam')
 
 //team profiles
 const Employee = require('./lib/employee')
-
-class Manager extends Employee {
-  constructor(name, id, email, role, officeNumber) {
-    super(name, id, email, role)
-    this.officeNumber = officeNumber;
-  }
-  getRole() {
-    return this.role;
-  }
-  getOfficeNumber() {
-    return this.officeNumber;
-  }
-}
-
-class Engineer extends Employee {
-  constructor(name, id, email, role, gitHub) {
-    super(name, id, email, role);
-    this.gitHub = gitHub;
-  }
-  getRole() {
-    return this.role;
-  }
-  getGithub() {
-    return this.gitHub;
-  }
-}
-
-class Intern extends Employee {
-  constructor(name, id, email, role, school) {
-    super(name, id, email, role);
-    this.school = school;
-  }
-  getRole() {
-    return this.role;
-  }
-  getSchool() {
-    return this.school;
-  }
-}
-
+const Manager = require('./lib/manager')
+const Engineer = require('./lib/engineer')
+const Intern = require('./lib/intern')
 
 const teamArray = [];
 
