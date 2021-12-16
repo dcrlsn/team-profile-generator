@@ -87,7 +87,7 @@ module.exports = team => {
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
-<body>
+<body class="bg-secondary>
   <div class="container-fluid">
       <div class="row">
           <div class="col-12 jumbotron mb-3 team-heading">
