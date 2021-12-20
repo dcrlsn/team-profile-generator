@@ -12,7 +12,7 @@
   
 ## Description
   
-This project generates a team profile and employees via a series of prompts from commandline
+This project generates a team profile and employees via a series of prompts from commandline using inquirer, it also has a series of tests using the package jest that can be run to test the classes and modules.
       
 ## Installation
   
