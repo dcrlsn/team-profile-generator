@@ -1,0 +1,43 @@
+html, * {
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 0px;
+}
+
+.card.employee-card {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 50px 10px;
+  box-shadow: 3px 3px 3px;
+  border-radius: 15px;
+}
+
+.card-title {
+  padding: 6px;
+  color: #333;
+  font-weight: bolder;
+}
+
+.team-heading {
+  background-color: lightblue;
+  box-shadow: 2px 2px 2px;
+  width: auto;
+}
+
+.card:hover {
+  transform: translateY(-5px) translateX(-5px);
+  transition: all 250ms ease-in-out;
+  box-shadow: 5px 5px 5px;
+}
